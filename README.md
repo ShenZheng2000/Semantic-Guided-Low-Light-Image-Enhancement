@@ -44,9 +44,6 @@ The official training dataset can be downloaded from [BaiduYun](https://pan.baid
 # Testing
 `python test.py`
 
-# Results
-TODO
-
 # Citations
 TODO
 
