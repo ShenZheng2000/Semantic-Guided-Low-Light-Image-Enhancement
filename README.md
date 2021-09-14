@@ -22,14 +22,14 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 
 <p float="left">
 <p align="middle">
-  <img src="Samples/Dark7.png" width="200" />
-  <img src="Samples/PIE7.png" width="200" /> 
-  <img src="Samples/LIME7.png" width="200" />
-  <img src="Samples/Retinex7.png" width="200" />
-  <img src="Samples/mbllen7.png" width="200" /> 
-  <img src="Samples/KinD7.png" width="200" />
-  <img src="Samples/ZeroDCE7.png" width="200" /> 
-  <img src="Samples/Ours7.png" width="200" />
+  <img src="Samples/Dark7.jpg" width="200" />
+  <img src="Samples/PIE7.jpg" width="200" /> 
+  <img src="Samples/LIME7.jpg" width="200" />
+  <img src="Samples/Retinex7.jpg" width="200" />
+  <img src="Samples/mbllen7.jpg" width="200" /> 
+  <img src="Samples/KinD7.jpg" width="200" />
+  <img src="Samples/ZeroDCE7.jpg" width="200" /> 
+  <img src="Samples/Ours7.jpg" width="200" />
 </p>
 
 # Prepare Datasets
