@@ -36,7 +36,7 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 The official testing dataset is at the folder `data/test_data/lowCUT/`. You can put other datasets in this folder for testing. 
 For example: `data/test_data/yourDataset/'
 
-The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in  `data/train_data`.
+The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in `data/train_data`.
 
 # Training 
  `python train.py`
@@ -52,10 +52,16 @@ TODO
 
 # References
 [1] Wei, Chen, et al. "Deep retinex decomposition for low-light enhancement." arXiv preprint arXiv:1808.04560 (2018).
+
 [2] Zhang, Yonghua, Jiawan Zhang, and Xiaojie Guo. "Kindling the darkness: A practical low-light image enhancer." Proceedings of the 27th ACM international conference on multimedia. 2019.
+
 [3] Jiang, Yifan, et al. "Enlightengan: Deep light enhancement without paired supervision." IEEE Transactions on Image Processing 30 (2021): 2340-2349.
+
 [4] Guo, Chunle, et al. "Zero-reference deep curve estimation for low-light image enhancement." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
-[5]
-[6]
-[7]
+
+[5] Fu, Xueyang, et al. "A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation." IEEE Transactions on Image Processing 24.12 (2015): 4965-4977.
+
+[6] Guo, Xiaojie, Yu Li, and Haibin Ling. "LIME: Low-light image enhancement via illumination map estimation." IEEE Transactions on image processing 26.2 (2016): 982-993.
+
+[7] Lv, Feifan, et al. "MBLLEN: Low-Light Image/Video Enhancement Using CNNs." BMVC. 2018.
 
