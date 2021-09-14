@@ -23,7 +23,7 @@ From left to right, and from top to bottom: Dark, Retinex [1] , KinD [2] , Enlig
 The official testing dataset is at the folder `data/test_data/lowCUT/`. You can put other datasets in this folder for testing. 
 For example: `data/test_data/yourDataset/'
 
-The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/'. After you unzip the file, the training images will be in  `data/train_data`.
+The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in  `data/train_data`.
 
 # Training 
  `python train.py`
