@@ -9,12 +9,12 @@ From left to right, and from top to bottom: Dark, Retinex [1] , KinD [2] , Enlig
 
 <p float="left">
 <p align="middle">
-  <img src="Samples/F1.png" width="300" />
-  <img src="Samples/retinex_net.png" width="300" /> 
-  <img src="Samples/kind.png" width="300" />
-  <img src="Samples/enlighten_gan.png" width="300" />
-  <img src="Samples/zero_dce.png" width="300" /> 
-  <img src="Samples/F1Crop.png" width="300" />
+  <img src="Samples/F1.png" width="250" />
+  <img src="Samples/retinex_net.png" width="250" /> 
+  <img src="Samples/kind.png" width="250" />
+  <img src="Samples/enlighten_gan.png" width="250" />
+  <img src="Samples/zero_dce.png" width="250" /> 
+  <img src="Samples/F1Crop.png" width="250" />
 </p>
 
 
