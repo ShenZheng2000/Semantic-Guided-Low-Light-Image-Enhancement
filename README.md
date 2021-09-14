@@ -6,12 +6,13 @@ Low-light images challenge both human perceptions and computer vision algorithms
 
 # Sample Results
 <p float="left">
-  <img src="Samples/F1.png" width="100" />
-  <img src="Samples/retinex_net.png" width="100" /> 
-  <img src="Samples/kind.png" width="100" />
-  <img src="Samples/enlighten_gan.png" width="100" />
-  <img src="Samples/zero_dce.png" width="100" /> 
-  <img src="Samples/F1Crop.png" width="100" />
+<p align="middle">
+  <img src="Samples/F1.png" width="500" />
+  <img src="Samples/retinex_net.png" width="500" /> 
+  <img src="Samples/kind.png" width="500" />
+  <img src="Samples/enlighten_gan.png" width="500" />
+  <img src="Samples/zero_dce.png" width="500" /> 
+  <img src="Samples/F1Crop.png" width="500" />
 </p>
 
 
