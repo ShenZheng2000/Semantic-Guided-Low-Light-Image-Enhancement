@@ -4,7 +4,8 @@ This is the official Pytorch implementation for our paper "Semantic-Guided Zero-
 # Abstract
 Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient enhancement factor extraction network using depthwise separable convolution. Secondly, we propose a recurrent image enhancement network for progressively enhancing the low-light image. Finally, we introduce an unsupervised semantic segmentation network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation.
 
-# Sample Results on Low-Light Videos
+# Sample Results
+## 1. Low-Light Video Frames
 From left to right, and from top to bottom: Dark, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Ours.
 
 <p float="left">
@@ -17,7 +18,7 @@ From left to right, and from top to bottom: Dark, Retinex [1], KinD [2], Enlight
   <img src="Samples/F1Crop.png" width="250" />
 </p>
 
-# Sample Results on Low-Light Images (Real-World)
+## 2. Low-Light Images (Real-World)
 From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2] , Zero-DCE [4], Ours
 
 <p float="left">
@@ -32,20 +33,41 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
   <img src="Samples/Ours7.jpg" width="200" />
 </p>
 
-# Prepare Datasets
+# Get Started
+
+## 1. Requirements
+* CUDA 10.0
+* Python 3.6+
+* Pytorch 1.0+
+* torchvision 0.4+
+* opencv-python
+* numpy
+* pillow
+* scikit-image
+
+## 2. Prepare Datasets
 The official testing dataset is at the folder `data/test_data/lowCUT/`. You can put other datasets in this folder for testing. 
-For example: `data/test_data/yourDataset/'
+Example: `data/test_data/yourDataset/'
 
 The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in `data/train_data`.
 
-# Training 
- `python train.py`
+## 3. Training 
+ ```
+ python train.py
+ ```
  
-# Testing
-`python test.py`
+## 4. Testing
+```
+python test.py
+```
+
+# Hyperparameters
 
 # Citations
 TODO
+
+# Others
+Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!
 
 # References
 [1] Wei, Chen, et al. "Deep retinex decomposition for low-light enhancement." arXiv preprint arXiv:1808.04560 (2018).
