@@ -60,8 +60,11 @@ The official training dataset can be downloaded from [BaiduYun](https://pan.baid
 ```
 python test.py
 ```
+# Pretrained Weights
+TODO
 
 # Hyperparameters
+TODO
 
 # Citations
 TODO
