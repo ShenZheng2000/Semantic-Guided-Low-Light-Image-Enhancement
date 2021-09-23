@@ -110,11 +110,11 @@ if __name__ == "__main__":
     parser.add_argument('--display_iter', type=int, default=10)
     parser.add_argument('--snapshot_iter', type=int, default=10)
     parser.add_argument('--scale_factor', type=int, default=1)
-    parser.add_argument('--snapshots_folder', type=str, default="snapshots_Zero_DCE++4/")
+    parser.add_argument('--snapshots_folder', type=str, default="weight/")
 
     # Weight parameters
     parser.add_argument('--load_pretrain', type=bool, default=False)
-    parser.add_argument('--pretrain_dir', type=str, default="snapshots_Zero_DCE++/Epoch99.pth") # change for dif. conv or ?
+    parser.add_argument('--pretrain_dir', type=str, default="weight/Epoch99.pth") # change for dif. conv or ?
     parser.add_argument("--num_of_SegClass", type=int, default=21,help='Number of Segmentation Classes, default VOC = 21')
 
     # Ablation parameters
