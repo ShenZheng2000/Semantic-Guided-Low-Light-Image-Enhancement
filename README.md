@@ -70,7 +70,7 @@ python test.py --weight_dir pretrained_weight_file --test_dir output_folder
 
 For example, if your pretrained weight is at ``
 ```
-python test.py --weight_dir weight/Epoch99.pth --test_dir result
+python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
 
 
