@@ -47,7 +47,7 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 
 ## 2. Prepare Datasets
 The official testing dataset is at the folder `data/test_data/lowCUT/`. You can put other datasets in this folder for testing. 
-Example: `data/test_data/yourDataset/'
+Example: `data/test_data/yourDataset/`
 
 The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in `data/train_data`.
 
