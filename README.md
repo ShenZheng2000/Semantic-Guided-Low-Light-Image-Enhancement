@@ -68,7 +68,7 @@ For model testing, run in terminal
 python test.py --weight_dir pretrained_weight_file --test_dir output_folder 
 ```
 
-For example, if your pretrained weight is at ``
+For example, if your pretrained weight is at `weight/Epoch99.pth`, adn your path for saving testing output is `test_output`, you can run in terminal:
 ```
 python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
@@ -77,8 +77,8 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 # TODO List
 - [ ] List (important) hyperparameters
 - [ ] Upload Pretrained Weight 
-- [ ] Rewrite training and testing argparse
-- [ ] Addres model input size issue
+- [ ] Rewrite training and testing argparse in a separate file
+- [x] Addres model input size issue
 - [ ] Upload Arxiv Link
 - [ ] Upload BibTeX
 
