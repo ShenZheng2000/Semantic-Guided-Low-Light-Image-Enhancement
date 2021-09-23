@@ -24,10 +24,10 @@ def lowlight(image_path, args):
 
 	data_lowlight = torch.from_numpy(data_lowlight).float()
 
-	h=data_lowlight.shape[0]
-	w=data_lowlight.shape[1]
-	print("height is ", h)
-	print("width is", w)
+	h=((data_lowlight.shape[0])//scale_factor)*scale_factor
+	w=((data_lowlight.shape[1])//scale_factor)*scale_factor
+	print("cropped height is ", h)
+	print("cropped width is", w)
 	data_lowlight = data_lowlight[0:h,0:w,:]
 	data_lowlight = data_lowlight.permute(2,0,1)
 	data_lowlight = data_lowlight.to(device).unsqueeze(0)
