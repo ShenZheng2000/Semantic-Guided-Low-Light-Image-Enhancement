@@ -55,10 +55,8 @@ def lowlight(image_path, args):
 if __name__ == '__main__':
 
 	parser = argparse.ArgumentParser(description='')
-	parser.add_argument('--weight_dir', type=str, default='SnapShots/snapshots_Zero_DCE++4/Epoch90.pth',
-						help='directory for pretrained weight')
-	parser.add_argument('--test_dir', type=str, default='tmp_57',
-						help='directory for testing output')
+	parser.add_argument('--weight_dir', type=str, help='directory for pretrained weight')
+	parser.add_argument('--test_dir', type=str, help='directory for testing output')
 	args = parser.parse_args()
 
 	with torch.no_grad():
