@@ -52,22 +52,35 @@ Example: `data/test_data/yourDataset/`
 The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with code `n93t`. After download, move the unzipped file into `data/`. After you unzip the file, the training images will be in `data/train_data`.
 
 ## 3. Training 
- ```
- python train.py
- ```
+For model training, run in terminal:
+```
+python train.py --snapshots_folder weight_folder --pretrain_dir pretrained_weight_file
+```
+
+For example, if your folder to save weights are `weight`, and your most recent weight file are at`weight/Epoch99.pth`, run in terminal:
+```
+python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
+```
  
 ## 4. Testing
+For model testing, run in terminal 
 ```
-python test.py
+python test.py --weight_dir pretrained_weight_file --test_dir output_folder 
 ```
-# Pretrained Weights
-TODO
 
-# Hyperparameters
-TODO
+For example, if your pretrained weight is at ``
+```
+python test.py --weight_dir weight/Epoch99.pth --test_dir result
+```
 
-# Citations
-TODO
+
+# TODO List
+- [ ] List (important) hyperparameters
+- [ ] Upload Pretrained Weight 
+- [ ] Rewrite training and testing argparse
+- [ ] Addres model input size issue
+- [ ] Upload Arxiv Link
+- [ ] Upload BibTeX
 
 # Others
 Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!
