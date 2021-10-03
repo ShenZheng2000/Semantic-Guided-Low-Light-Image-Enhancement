@@ -98,8 +98,8 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 # TODO List
 - [x] List (important) hyperparameters
 - [x] Addres model input size issue
+- [x] Upload Pretrained Weight 
 - [ ] Provide Online Demo
-- [ ] Upload Pretrained Weight 
 - [ ] Rewrite training and testing argparse in a separate file
 - [ ] Upload Arxiv Link
 - [ ] Upload BibTeX
