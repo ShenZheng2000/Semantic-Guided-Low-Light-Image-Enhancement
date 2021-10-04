@@ -104,6 +104,7 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 - [x] Upload Pretrained Weight 
 - [x] Rewrite training and testing argparse in a separate file
 - [ ] Provide Online Demo
+- [ ] Upload Testing Dataset
 - [ ] Upload Arxiv Link
 - [ ] Upload BibTeX
 
