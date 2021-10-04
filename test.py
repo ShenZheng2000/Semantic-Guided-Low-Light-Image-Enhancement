@@ -58,6 +58,7 @@ def test():
 			sum_time = sum_time + Tester(image, args)
 
 		print(sum_time)
+		
 
 
 if __name__ == '__main__':
