@@ -57,6 +57,7 @@ class Tester(): # TODO: replace image_path
 			sum_time = sum_time + self.inference(image)
 
 		print(sum_time)
+		print("test finished!")
 
 
 
