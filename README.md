@@ -107,6 +107,7 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 - [ ] Upload Testing Dataset
 - [ ] Upload Arxiv Link
 - [ ] Upload BibTeX
+- [ ] Modify Readme file
 
 # Others
 Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!
