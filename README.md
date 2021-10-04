@@ -72,6 +72,9 @@ For example, if your pretrained weight is at `weight/Epoch99.pth`, adn your path
 ```
 python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
+
+**NOTE**: Please delete all readme.txt in the `data` folder to avoid model inference error. 
+
 # Hyperparameters
 | Name                 | Type  | Default            | Description |
 |----------------------|-------|--------------------|-------------|
@@ -99,8 +102,8 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 - [x] List (important) hyperparameters
 - [x] Addres model input size issue
 - [x] Upload Pretrained Weight 
+- [x] Rewrite training and testing argparse in a separate file
 - [ ] Provide Online Demo
-- [ ] Rewrite training and testing argparse in a separate file
 - [ ] Upload Arxiv Link
 - [ ] Upload BibTeX
 
