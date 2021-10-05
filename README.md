@@ -93,26 +93,26 @@ There are five hyperparameters for video testing. See the following explanation.
 
 
 # Hyperparameters
-| Name                 | Type  | Default            | Description |
-|----------------------|-------|--------------------|-------------|
-| lowlight_images_path | str   | data/train_data/   |             |
-| lr                   | float | 1e-3               |             |
-| weight_decay         | float | 1e-3               |             |
-| grad_clip_norm       | float | 0.1                |             |
-| num_epochs           | int   | 100                |             |
-| train_batch_size     | int   | 6                  |             |
-| val_batch_size       | int   | 8                  |             |
-| num_workers          | int   | 4                  |             |
-| display_iter         | int   | 10                 |             |
-| snapshot_iter        | int   | 10                 |             |
-| scale_factor         | int   | 1                  |             |
-| snapshots_folder     | str   | weight/            |             |
-| load_pretrain        | bool  | False              |             |
-| pretrain_dir         | str   | weight/Epoch99.pth |             |
-| num_of_SegClass      | int   | 21                 |             |
-| conv_type            | str   | dsc                |             |
-| patch_size           | int   | 4                  |             |
-| exp_level            | float | 0.6                |             |
+| Name                 | Type  | Default            | 
+|----------------------|-------|--------------------|
+| lowlight_images_path | str   | data/train_data/   |         
+| lr                   | float | 1e-3               |          
+| weight_decay         | float | 1e-3               |            
+| grad_clip_norm       | float | 0.1                |            
+| num_epochs           | int   | 100                |          
+| train_batch_size     | int   | 6                  |          
+| val_batch_size       | int   | 8                  |           
+| num_workers          | int   | 4                  |         
+| display_iter         | int   | 10                 |         
+| snapshot_iter        | int   | 10                 |        
+| scale_factor         | int   | 1                  |         
+| snapshots_folder     | str   | weight/            |         
+| load_pretrain        | bool  | False              |       
+| pretrain_dir         | str   | weight/Epoch99.pth |         
+| num_of_SegClass      | int   | 21                 |        
+| conv_type            | str   | dsc                |        
+| patch_size           | int   | 4                  |        
+| exp_level            | float | 0.6                |       
 
 
 # TODO List
