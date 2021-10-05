@@ -106,6 +106,7 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 - [x] Rewrite testing as a class  
 - [x] Upload Testing Dataset
 - [x] Upload Arxiv Link
+- [ ] Testing on Video
 - [ ] Provide Online Demo
 - [ ] Upload BibTeX
 - [ ] Modify Readme file
