@@ -84,7 +84,7 @@ For model testing on videos (MP4 format), run in terminal:
 bash test_video.sh
 ```
 
-There are five hyperparameters for video testing. See the following explanation. 
+There are five hyperparameters in `demo/make_video.py`for video testing. See the following explanation. 
 - video_path: path of the low-light video
 - image_lowlight_folder: path of the low-light images
 - image_folder: path of the enhanced images
