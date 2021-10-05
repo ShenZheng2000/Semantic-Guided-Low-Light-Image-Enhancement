@@ -48,7 +48,7 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 ## 2. Prepare Datasets
 The official testing dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. After download, move the unzipped file into `data/test_data/`. You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`
 
-The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. After download, move the unzipped file into `data/train_data`. 
+The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. After download, move the unzipped file into `data/train_data/`. 
 
 ## 3. Training 
 For model training, run in terminal:
@@ -104,9 +104,9 @@ python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 - [x] Rewrite training and testing argparse in a option.py
 - [x] Rewrite training as a class
 - [x] Rewrite testing as a class  
-- [ ] Provide Online Demo
-- [ ] Upload Testing Dataset
+- [x] Upload Testing Dataset
 - [x] Upload Arxiv Link
+- [ ] Provide Online Demo
 - [ ] Upload BibTeX
 - [ ] Modify Readme file
 
