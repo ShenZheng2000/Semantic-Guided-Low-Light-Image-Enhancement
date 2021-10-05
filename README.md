@@ -1,8 +1,8 @@
 # Semantic-Guided-Low-Light-Image-Enhancement
 This is the official Pytorch implementation for our paper "Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement." 
 
-# Updates
 A sample low-light enhancement video is available at https://www.youtube.com/watch?v=rN6Tf1E-kE8
+
 The arxiv link is now available at http://arxiv.org/abs/2110.00970
 
 # Abstract
