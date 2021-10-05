@@ -66,6 +66,8 @@ python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
 ```
  
 ## 4. Testing
+**NOTE**: Please delete all readme.txt in the `data` folder to avoid model inference error. 
+
 For model testing, run in terminal 
 ```
 python test.py --weight_dir pretrained_weight_file --test_dir output_folder 
@@ -76,7 +78,19 @@ For example, if your pretrained weight is at `weight/Epoch99.pth`, adn your path
 python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
 
-**NOTE**: Please delete all readme.txt in the `data` folder to avoid model inference error. 
+## 5. Testing on Videos
+For model testing on videos (MP4 format), run in terminal:
+```
+bash test_video.sh
+```
+
+There are five hyperparameters for video testing. See the following explanation. 
+- video_path: path of the low-light video
+- image_lowlight_folder: path of the low-light images
+- image_folder: path of the enhanced images
+- save_path: path of the enhanced video
+- choice: whether converting video to image, or image to video
+
 
 # Hyperparameters
 | Name                 | Type  | Default            | Description |
