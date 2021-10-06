@@ -88,11 +88,11 @@ bash test_video.sh
 ```
 
 There are five hyperparameters in `demo/make_video.py`for video testing. See the following explanation. 
-- video_path: path of the low-light video
-- image_lowlight_folder: path of the low-light images
-- image_folder: path of the enhanced images
-- save_path: path of the enhanced video
-- choice: whether converting video to image, or image to video
+- `video_path`: path of the low-light video
+- `image_lowlight_folder`: path of the low-light images
+- `image_folder`: path of the enhanced images
+- `save_path`: path of the enhanced video
+- `choice`: whether converting video to image, or image to video
 
 
 # Hyperparameters
