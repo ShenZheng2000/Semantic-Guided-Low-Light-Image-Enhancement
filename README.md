@@ -2,7 +2,7 @@
 This is the official Pytorch implementation for our paper "**Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement.**" 
 
 # Updates
-- 2021.10.8: A easy way to calculate mPA and mIOU is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)
+- 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)
 - 2021.10.6: A sample enhanced low-light video in GIF format has been released. 
 - 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]
 - 2021.10.5: My new [repository](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contains a collection of low-light enhancement methods. Hope you will find it helpful. 
