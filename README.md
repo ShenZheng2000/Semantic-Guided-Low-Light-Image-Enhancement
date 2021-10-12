@@ -130,11 +130,23 @@ There are five hyperparameters in `demo/make_video.py`for video testing. See the
 - [x] Upload Arxiv Link
 - [x] Testing on Video
 - [ ] Provide Online Demo
-- [ ] Upload BibTeX
+- [x] Upload BibTeX
 - [ ] Modify Readme file
 
 # Others
 Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!
+
+# Citations
+Please cite the following paper if you find this repository helpful.
+```
+@article{zheng2021semantic,
+  title={Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement},
+  author={Zheng, Shen and Gupta, Gaurav},
+  journal={arXiv preprint arXiv:2110.00970},
+  year={2021}
+}
+```
+
 
 # References
 [1] Wei, Chen, et al. "Deep retinex decomposition for low-light enhancement." arXiv preprint arXiv:1808.04560 (2018).
