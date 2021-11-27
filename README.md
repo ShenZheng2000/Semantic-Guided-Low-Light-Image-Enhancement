@@ -60,9 +60,14 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 * scikit-image
 
 ## 2. Prepare Datasets
-The official testing dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. After download, move the unzipped file into `data/test_data/`. You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`
+### Testing Dataset
+- Downloaded the official testing images from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. 
+- Move the unzipped file into `data/test_data/`. 
+- You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`
 
-The official training dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. After download, move the unzipped file into `data/train_data/`. 
+### Training Dataset
+- Downloaded the official training images from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. 
+- Move the unzipped file into `data/train_data/`. 
 
 ## 3. Training 
 For model training, run in terminal:
