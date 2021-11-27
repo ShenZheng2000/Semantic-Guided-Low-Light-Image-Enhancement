@@ -3,7 +3,7 @@ This is the official Pytorch implementation for our paper "**Semantic-Guided Zer
 
 # Updates
 - 2021.11.27: The figure for the model architecture has been uploaded.
-- 2021.11.10: This work is accepted and will be presented at WACV 2022.
+- 2021.11.10: This work is accepted and will be presented at [WACV 2022](https://wacv2022.thecvf.com/home).
 - 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)
 - 2021.10.6: A sample enhanced low-light video in GIF format has been released. 
 - 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]
