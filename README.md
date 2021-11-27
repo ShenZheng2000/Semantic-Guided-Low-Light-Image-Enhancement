@@ -131,7 +131,7 @@ There are five hyperparameters in `demo/make_video.py`for video testing. See the
 - [x] Testing on Video
 - [ ] Provide Online Demo
 - [x] Upload BibTeX
-- [ ] Modify Readme file
+- [x] Modify Readme file
 
 # Others
 Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!
