@@ -70,7 +70,7 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 - Downloaded the official training images from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. 
 - Move the unzipped file into `data/train_data/`. 
 
-NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset vis [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)
+NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)
 
 ## 3. Training 
 For model training, run in terminal:
