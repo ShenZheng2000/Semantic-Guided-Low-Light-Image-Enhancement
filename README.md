@@ -156,11 +156,12 @@ Please reach zhengsh@kean.edu if you have any questions. This repository is heav
 # Citations
 Please cite the following paper if you find this repository helpful.
 ```
-@article{zheng2021semantic,
-  title={Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement},
+@inproceedings{zheng2022semantic,
+  title={Semantic-guided zero-shot learning for low-light image/video enhancement},
   author={Zheng, Shen and Gupta, Gaurav},
-  journal={arXiv preprint arXiv:2110.00970},
-  year={2021}
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={581--590},
+  year={2022}
 }
 ```
 
