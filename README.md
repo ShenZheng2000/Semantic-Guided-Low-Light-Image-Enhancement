@@ -84,7 +84,7 @@ python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
 ```
  
 ## 4. Testing
-**NOTE**: Please delete all readme.txt in the `data` folder to avoid model inference error. 
+**NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**
 
 For model testing, run in terminal 
 ```
