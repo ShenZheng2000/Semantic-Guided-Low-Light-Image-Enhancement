@@ -91,7 +91,7 @@ For model testing, run in terminal
 python test.py --weight_dir pretrained_weight_file --test_dir output_folder 
 ```
 
-For example, if your pretrained weight is at `weight/Epoch99.pth`, and your path for saving testing output in the `data` folder is `test_output/low_CUT`, you can run in terminal:
+For example, if your pretrained weight is at `weight/Epoch99.pth`, you can run in terminal:
 ```
 python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
