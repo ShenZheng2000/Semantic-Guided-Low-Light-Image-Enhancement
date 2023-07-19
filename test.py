@@ -30,7 +30,7 @@ class Tester(): # TODO: replace image_path
 		start = time.time()
 		enhanced_image, params_maps = self.net(data_lowlight)
 		end_time = (time.time() - start)
-		print(end_time)
+		# print(end_time)
 
 		# Load result directory and save image
 		image_path = image_path.replace('test_data', args.test_dir)
@@ -50,11 +50,11 @@ class Tester(): # TODO: replace image_path
 
 		for file_name in file_list:
 			test_list = glob.glob(filePath + file_name + "/*")
-			print(test_list)
+			# print(test_list)
 
-		for image in test_list:
-			print(image)
-			sum_time = sum_time + self.inference(image)
+			for image in test_list:
+				# print(image)
+				sum_time = sum_time + self.inference(image)
 
 		print(sum_time)
 		print("test finished!")
