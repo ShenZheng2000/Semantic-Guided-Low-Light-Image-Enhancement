@@ -8,7 +8,7 @@ from option import *
 from utils import *
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-os.environ['CUDA_VISIBLE_DEVICES']='1' # For GPU only
+# os.environ['CUDA_VISIBLE_DEVICES']='1' # For GPU only
 device = get_device()
 
 class Tester(): 
