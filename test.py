@@ -8,7 +8,7 @@ from option import *
 from utils import *
 
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
-os.environ['CUDA_VISIBLE_DEVICES']='0' # For GPU only
+os.environ['CUDA_VISIBLE_DEVICES']='1' # For GPU only
 device = get_device()
 
 class Tester(): 
@@ -38,7 +38,7 @@ class Tester():
 
     def test(self):
         self.net.eval()
-        file_list = glob.glob(os.path.join(args.input_dir, '*/*'))  # get all the images in all the folders
+        file_list = glob.glob(os.path.join(args.input_dir, '*'))  # get all the images in all the folders
         sum_time = 0
 
         for image in file_list:
@@ -52,8 +52,3 @@ class Tester():
 if __name__ == '__main__':
 	t = Tester()
 	t.test()
-
-
-
-		
-
