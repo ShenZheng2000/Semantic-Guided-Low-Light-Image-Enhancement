@@ -88,12 +88,12 @@ python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
 
 For model testing, run in terminal 
 ```
-python test.py --weight_dir pretrained_weight_file --test_dir output_folder 
+python test.py --input_dir your_input_folder --weight_dir pretrained_weight_file --test_dir your_output_folder 
 ```
 
-For example, if your pretrained weight is at `weight/Epoch99.pth`, and your result image will be saved in `test_output`, you can run in terminal:
+For example, if your input folder is named `test_dataset`, pretrained weight is at `weight/Epoch99.pth`, and your result image will be saved in `test_output`, you can run in terminal:
 ```
-python test.py --weight_dir weight/Epoch99.pth --test_dir test_output
+python test.py --input_dir test_dataset --weight_dir weight/Epoch99.pth --test_dir test_output
 ```
 
 ## 5. Testing on Videos
