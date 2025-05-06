@@ -67,7 +67,7 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 - You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`
 
 ### Training Dataset
-- Downloaded the official training images from [BaiduYun](https://pan.baidu.com/s/19ez3dM079WksPRB0Xw98kg) with password `n93t`. 
+- Downloaded the official training images from [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). 
 - Move the unzipped file into `data/train_data/`. 
 
 NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)
