@@ -72,31 +72,63 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 
 NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)
 
-## 3. Training 
-For model training, run in terminal:
+
+## 3. Training from Scratch
+To train the model:
 ```
-python train.py --snapshots_folder weight_folder --pretrain_dir pretrained_weight_file
+python train.py \
+  --lowlight_images_path path/to/train_images \
+  --snapshots_folder path/to/save_weights
 ```
 
-For example, if your folder to save weights are `weight`, and your most recent weight file are at`weight/Epoch99.pth`, run in terminal:
+Example (train from scratch):
 ```
-python train.py --snapshots_folder weight/ --pretrain_dir weight/Epoch99.pth
+python train.py \
+  --lowlight_images_path data/train_data \
+  --snapshots_folder weight/
 ```
+
+## 4. Resume Training
+
+To resume training from a checkpoint:
+```
+python train.py \
+  --lowlight_images_path path/to/train_images \
+  --snapshots_folder path/to/save_weights \
+  --load_pretrain True \
+  --pretrain_dir path/to/checkpoint.pth
+```
+
+Example (resume from Epoch99.pth):
+```
+python train.py \
+  --lowlight_images_path data/train_data \
+  --snapshots_folder weight/ \
+  --load_pretrain True \
+  --pretrain_dir weight/Epoch99.pth
+```
+
  
-## 4. Testing
+## 5. Testing
 **NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**
 
-For model testing, run in terminal 
+To test the model:
 ```
-python test.py --input_dir your_input_folder --weight_dir pretrained_weight_file --test_dir your_output_folder 
-```
-
-For example, if your input folder is named `test_dataset`, pretrained weight is at `weight/Epoch99.pth`, and your result image will be saved in `test_output`, you can run in terminal:
-```
-python test.py --input_dir test_dataset --weight_dir weight/Epoch99.pth --test_dir test_output
+python test.py \
+  --input_dir path/to/your_input_images \
+  --weight_dir path/to/pretrained_model.pth \
+  --test_dir path/to/output_folder 
 ```
 
-## 5. Testing on Videos
+Example:
+```
+python test.py \
+  --input_dir data/test_data/lowCUT \
+  --weight_dir weight/Epoch99.pth \
+  --test_dir test_output
+```
+
+## 6. Testing on Videos
 For model testing on videos (MP4 format), run in terminal:
 ```
 bash test_video.sh
