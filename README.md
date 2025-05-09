@@ -72,6 +72,22 @@ From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1]
 
 NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)
 
+After preparation, the data folders should look like this:
+```
+data/
+├── test_data/
+│   ├── lowCUT/
+│   ├── BDD/
+│   ├── Cityscapes/
+│   ├── DICM/
+│   ├── LIME/
+│   ├── LOL/
+│   ├── MEF/
+│   ├── NPE/
+│   └── VV/
+└── train_data/
+    └── ...
+```
 
 ## 3. Training from Scratch
 To train the model:
