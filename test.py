@@ -39,6 +39,12 @@ class Tester():
     def test(self):
         self.net.eval()
         file_list = glob.glob(os.path.join(args.input_dir, '*'))  # get all the images in all the folders
+        
+        # Filter out Zone.Identifier files and only keep actual image files
+        image_extensions = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.tif')
+        file_list = [f for f in file_list if f.lower().endswith(image_extensions) and not f.endswith(':Zone.Identifier')]
+        
+        print(f"Found {len(file_list)} image files to process")
         sum_time = 0
 
         for image in file_list:
